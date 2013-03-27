@@ -9,4 +9,4 @@ let g:solarized_termcolors=256
 syntax enable
 set background=dark
 colorscheme solarized
-set guifont=Menlo:h14
+set guifont=Menlo:h12
