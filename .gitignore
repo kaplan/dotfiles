@@ -10,6 +10,6 @@ ehthumbs.db
 Thumbs.db
 
 # Ignore some Vim specific files
-vim/.netrwhilst
+.netrwhilst
 *.un~
 *.swp
