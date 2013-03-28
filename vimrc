@@ -45,4 +45,5 @@ map <leader>es :sp %%
 map <leader>ev :vsp %%
 map <leader>et :tabe %%
 
-
+" execute ruby kind of like cmd+b in Sublime
+map <leader>r :w ! ruby<cr>
