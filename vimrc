@@ -8,7 +8,9 @@ set nocompatible                " choose no compatibility with legacy vi
 " To disable a plugin, add it's bundle name to the following list
   let g:pathogen_disabled = []
   "if !has('gui_running')
-    call add(g:pathogen_disabled, 'ctrlp')
+    "call add(g:pathogen_disabled, 'ctrlp')
+    call add(g:pathogen_disabled, 'commentary')
+    "call add(g:pathogen_disabled, 'tcomment')
     call add(g:pathogen_disabled, 'sensible')
   "endif
 
@@ -17,7 +19,7 @@ set nocompatible                " choose no compatibility with legacy vi
   call pathogen#helptags()
 
 syntax enable                          " Turn on syntax highlighting.
-set background=light                   " Background.
+set background=dark                    " Background.
 colorscheme Tomorrow-Night             " Color.
 filetype plugin indent on              " Turn on file type detection.
 
@@ -77,3 +79,5 @@ map <leader>r :w ! ruby<cr>
 "autocmd FileType ruby setlocal foldmethod=syntax
 "autocmd FileType css  setlocal foldmethod=indent shiftwidth=2 tabstop=2
 
+" I don't think setting this is necessary
+"set t_Co=256

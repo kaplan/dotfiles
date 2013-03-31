@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/davekaplan/Sites/sepiachicago.com/js'
+let g:netrw_dirhist_2='/'
+let g:netrw_dirhist_3='/Users/davekaplan/Sites/sepiachicago.com'
+let g:netrw_dirhist_4='/'
+let g:netrw_dirhist_5='/Users/davekaplan/Sites/sepiachicago.com'
+let g:netrw_dirhist_6='/Users/davekaplan'
+let g:netrw_dirhist_7='/Users/davekaplan/Sites/sepiachicago.com'
