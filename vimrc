@@ -9,8 +9,8 @@ set nocompatible                " choose no compatibility with legacy vi
   let g:pathogen_disabled = []
   "if !has('gui_running')
     "call add(g:pathogen_disabled, 'ctrlp')
-    call add(g:pathogen_disabled, 'commentary')
     "call add(g:pathogen_disabled, 'tcomment')
+    call add(g:pathogen_disabled, 'commentary')
     call add(g:pathogen_disabled, 'sensible')
   "endif
 

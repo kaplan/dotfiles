@@ -11,5 +11,6 @@ Thumbs.db
 
 # Ignore some Vim specific files
 .netrwhilst
+vim/.netrwhilst
 *.un~
 *.swp
