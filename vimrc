@@ -74,6 +74,7 @@ map <leader>et :tabe %%
 
 " execute ruby kind of like cmd+b in Sublime
 map <leader>r :w ! ruby<cr>
+" map <leader>r :!ruby %<cr>
 
 " Automatic fold settings for specific files. Uncomment to use.
 "autocmd FileType ruby setlocal foldmethod=syntax
